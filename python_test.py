@@ -1,7 +1,6 @@
-
 class Fibonacci_sequence:
     def fibonacci(self):
-        j = int(input("number:"))
+        j = int(input("输入你想要多少个斐波那契数列:"))
         count = 2
         n = 0
         old = 1
@@ -24,7 +23,6 @@ class Fibonacci_sequence:
         return fibonacci
 fibonacci_sequence = Fibonacci_sequence()
 fibonacci_list = fibonacci_sequence.fibonacci()
-print(fibonacci_list)
+print("这个斐波那契数列是：",fibonacci_list)
 for i in fibonacci_list:
-    print(i,end=" ")
-
+    print("这个斐波那契数列是：",i,end=" ")
