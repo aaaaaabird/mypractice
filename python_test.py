@@ -25,4 +25,4 @@ fibonacci_sequence = Fibonacci_sequence()
 fibonacci_list = fibonacci_sequence.fibonacci()
 print("这个斐波那契数列是：",fibonacci_list)
 for i in fibonacci_list:
-    print("这个斐波那契数列是：",i,end=" ")
+    print(i,end=" ")
